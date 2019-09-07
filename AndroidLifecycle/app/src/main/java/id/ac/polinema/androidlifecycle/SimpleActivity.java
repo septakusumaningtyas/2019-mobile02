@@ -8,10 +8,7 @@ import android.widget.EditText;
 import android.widget.TextView;
 
 public class SimpleActivity extends AppCompatActivity {
-
-    // Mendeklarasikan atribut dengan nama nameInput dengan tipe EditText
     private EditText nameInput;
-    // Mendeklarasikan atribut dengan nama outputText dengan tipe TextView
     private TextView outputText;
 
     @Override

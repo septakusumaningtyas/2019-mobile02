@@ -90,13 +90,6 @@ public class MainActivity extends AppCompatActivity {
             alertDialogBuilder.setMessage("Tebakan Anda terlalu kecil!");
         }
 
-        alertDialogBuilder.setNegativeButton("Close", new DialogInterface.OnClickListener()
-        {
-            @Override
-            public void onClick(DialogInterface dialog, int which){
-            }
-        });
-
         AlertDialog alertDialog = alertDialogBuilder.create();
         alertDialog.show();
 	}
